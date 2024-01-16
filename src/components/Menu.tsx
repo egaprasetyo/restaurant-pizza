@@ -24,6 +24,7 @@ const Menu = () => {
                     alt=""
                     width={20}
                     height={20}
+                    className="cursor-pointer"
                     onClick={() => setOpen(true)}
                 />
             ) : (
@@ -32,6 +33,7 @@ const Menu = () => {
                     alt=""
                     width={20}
                     height={20}
+                    className="cursor-pointer"
                     onClick={() => setOpen(false)}
                 />
             )}
